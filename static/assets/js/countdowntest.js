@@ -26,7 +26,7 @@ const times = timez
 */
 
 const times = [
-  [7, 0, "red"], [9, 0, "yellow"], [7, 0, "red"], [9, 0, "yellow"], [7, 0, "red"], [6, 0, "green"], [18, 0, "blue"], [6, 0, "green"], [18, 0, "blue"], [6, 0, "green"], [18, 0, "blue"], [22, 0, "purple"], [7, 0, "red"], [9, 0, "yellow"], [7, 0, "red"], [9, 0, "yellow"], [7, 0, "red"]
+  [7, 0, "red"], [9, 0, "yellow"]
 ];
 
 const timer = document.getElementById('time');
