@@ -4,6 +4,5 @@ from stkevins import views
 app_name = 'stkevins'
 
 urlpatterns = [
-    path('', views.parish_view, name='stkevins'),
-    path('fuck/', views.MassesTemplateView.as_view(), name='masses'),
+    path('', views.KevinsPageView.as_view(), name='stkevins'),
 ]
