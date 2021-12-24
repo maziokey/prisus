@@ -38,7 +38,7 @@ SECRET_KEY = env("SECRET_KEY")
 DEBUG = False
 # DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['abujapr.com', 'www.abujapr.com', 'stkevinsjikwoyi.abujapr.com']
 
 
 # Application definition
