@@ -26,8 +26,8 @@ const times = timez
 */
 
 const times = [
-  [18, 0, "blue"], [20, 0, "green"], [7, 0, "red"], [9, 0, "yellow"], [7, 0, "red"], [9, 0, "yellow"], [7, 0, "red"], [6, 0, "green"], [18, 0, "blue"], [6, 0, "green"], [18, 0, "blue"], [6, 0, "green"], [18, 0, "blue"], [22, 0, "purple"], [7, 0, "red"], [9, 0, "yellow"], [7, 0, "red"], [9, 0, "yellow"], [7, 0, "red"]
-]
+  [7, 0, "red"], [9, 0, "yellow"], [7, 0, "red"], [9, 0, "yellow"], [7, 0, "red"], [6, 0, "green"], [18, 0, "blue"], [6, 0, "green"], [18, 0, "blue"], [6, 0, "green"], [18, 0, "blue"], [22, 0, "purple"], [7, 0, "red"], [9, 0, "yellow"], [7, 0, "red"], [9, 0, "yellow"], [7, 0, "red"]
+];
 
 const timer = document.getElementById('time');
 const mass_time = document.getElementById('mass_time')
