@@ -1,36 +1,13 @@
-/*
-const d = new Date();
 
-const weekday = new Array(7);
-weekday[0] = "Sunday";
-weekday[1] = "Monday";
-weekday[2] = "Tuesday";
-weekday[3] = "Wednesday";
-weekday[4] = "Thursday";
-weekday[5] = "Friday";
-weekday[6] = "Saturday";
-
-
-let day = weekday[d.getDay()];
-
-console.log(day)
-
-if (day == weekday[0]) {
-  var timez = [[6, 0, "green"], [10, 0, "purple"], [12, 0, "red"], [18, 0, "blue"]];
-} else {
-  var timez = [[6, 0, "green"], [12, 0, "red"], [18, 0, "blue"]];
-}
-
-const times = timez
-
-*/
 
 const times = [
   [7, 0, "red"], [9, 0, "yellow"]
-];
+]
+
+console.log(times)
 
 const timer = document.getElementById('time');
-const mass_time = document.getElementById('mass_time')
+const mass_time = document.getElementById('mass_time');
 
 
   setInterval(function tick() {
