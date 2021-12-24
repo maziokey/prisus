@@ -8,6 +8,7 @@ from pages.models import Parish, Mass
 class KevinsPageView(TemplateView):
     template_name = 'stkevins/stkevinshome.html'
 
+"""
 def parish_view(request, *args, **kwargs):
     query_results = Parish.objects.get(pk=1)
     parish = {'query_results': query_results}
@@ -31,3 +32,4 @@ class MassesTemplateView(TemplateView):
         )
 
         return context
+"""
