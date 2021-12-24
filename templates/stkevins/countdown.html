@@ -1,0 +1,21 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>St Kevins, Jikwoyi</title>
+</head>
+<body>
+    <h1>Welcome to st Kevin's Jikwoyi</h1>
+    
+    <div style="display: none" id="jsonData" data-json="{{ data }}"></div>
+
+    <p>Next Mass:&nbsp;<span id="mass_time">&nbsp;</span></p>
+    <p>Next outgoing ship:&nbsp;<span id="time">&nbsp;</span></p>
+
+    <script src="{% static 'assets/js/countdowntest.js' %}"></script>
+</body>
+</html>

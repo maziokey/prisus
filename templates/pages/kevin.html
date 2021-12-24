@@ -1,0 +1,230 @@
+{% extends 'p_base.html' %}
+
+{% load static %}
+
+{% block content %}
+    <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url({% static 'assets/img/slide/slide-4.jpg' %})">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animated fadeInDown">St Kevin's, Jikwoyi</h2>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url({% static 'assets/img/slide/slide-5.jpg' %})">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animated fadeInDown">You are invited to our Harvest of Divine Restoration</h2>
+              <p class="animated fadeInUp">Holding on the 25th of November after 10am mass, Come with your family and friends.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url({% static 'assets/img/slide/slide-6.jpg' %})">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animated fadeInDown">10 years in His Vineyard</h2>
+              <p class="animated fadeInUp">A Compilation of Sermons and Reflections by Fr Jimbili Moses.</p>
+              <a href="#about" class="btn-get-started animated fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about team" class="about team">
+      <div class="container-fluid">
+
+        <div class="row justify-content-center">
+            
+            <div class="col-xl-4 col-lg-4 col-md-6" data-wow-delay="0.1s">
+                <div class="member-k">
+                  <img src="{% static 'assets/img/team/team-2.jpg' %}" alt="">
+                  <div class="member-k-info">
+                    <div class="member-k-info-content">
+                      <h4>Fr. Moses Jimbili</h4>
+                      <span>Parish Priest</span>
+                    </div>
+                    <div class="social">
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                    </div>
+                  </div>
+                </div>
+            </div> <!-- End Member Item -->
+
+          
+
+          <div class="col-xl-5 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+            <h3>Summary of Pope Francis' 2021 Message for Mission Sunday</h3>
+            <h5>We Cannot but speak what we have seen and heard (Acts 4:20).</h5>
+
+            <div>
+              <p class="description">
+                Once we experience the power of God’s love, and recognize his fatherly presence in our personal and community life, we 
+                cannot help but proclaim and share what we have seen and heard. Jesus’ relationship with his disciples and his humanity, 
+                as revealed to us in the mystery of his Incarnation, Gospel and Paschal Mystery, shows us the extent to which God loves 
+                our humanity and makes his own our joys and sufferings, our hopes and our concerns (cf. Gaudium et Spes, 22). Everything 
+                about Christ reminds us that he knows well our world and its need for redemption, and calls us to become actively 
+                engaged in this mission: “Go therefore to the highways and byways, and invite everyone you find” (Mt 22:9). 
+                No one is excluded, no one need feel distant or removed from this compassionate love.
+              </p>
+              <p class="description">
+                The history of evangelization began with the Lord’s own passionate desire to call and enter into friendly dialogue with 
+                everyone, just as they are (cf. Jn 15:12-17). The Apostles are the first to tell us this; they remembered even the day 
+                and the hour when they first met him: “It was about four o’clock in 
+              </p>
+            </div>
+          </div>
+
+          <div class="col-xl-10 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center px-lg-5">
+            <p class="description">
+                the afternoon” (Jn 1:39). Experiencing the Lord’s friendship, watching him cure the sick, dine with sinners, 
+                feed the hungry, draw near to the outcast, touch the unclean, identify with the needy, propose the Beatitudes and 
+                teach in a new and authoritative way, left an indelible mark on them, awakening amazement, expansive joy and a 
+                profound sense of gratitude. The prophet Jeremiah describes this experience as one of a consuming awareness 
+                of the Lord’s active presence in our heart, impelling us to mission, regardless of the sacrifices and 
+                misunderstandings it may entail (cf. 20:7-9). Love is always on the move, and inspires us to share a wonderful and 
+                hope-filled message: “We have found the Messiah” (Jn 1:41).Once we experience the power of God’s love, and recognize 
+                his fatherly presence in our personal and community life, we cannot help but proclaim and share what we have seen and 
+                heard. Jesus’ relationship with his disciples and his humanity, as revealed to us in the mystery of his Incarnation, 
+                Gospel and Paschal Mystery, shows us the extent to which God loves our humanity and makes his own our joys and 
+                sufferings, our hopes and our concerns (cf. Gaudium et Spes, 22). Everything about Christ reminds us that he knows 
+                well our world and its need for redemption, and calls us to become actively engaged in this mission: “Go therefore to 
+                the highways and byways, and invite everyone you find” (Mt 22:9). No one is excluded, no one need feel distant or 
+                removed from this compassionate love.
+            </p>
+            <h3 style="text-align:right;">Rev Fr Moses Jimbili</h3>
+            <h5 style="text-align:right;">Parish Priest</h5>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+        <div class="container">
+  
+          <div class="text-center">
+            <h3>Countdown to Mass</h3>
+            <a class="cta-btn" href="#contact">Contact Us</a>
+          </div>
+  
+        </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+        <div class="container-fluid">
+  
+            <div class="row justify-content-center">
+  
+                <div class="col-xl-5 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+                    <h3>10 Years in His Vineyard</h3>
+                    <p>A Compilation of Sermons and Reflections by Fr Jimbili Moses.</p>
+        
+                    <div class="icon-box">
+                        <div class="icon"><i class="bx bx-fingerprint"></i></div>
+                        <h4 class="title"><a href="">Launching</a></h4>
+                        <p class="description">February 23rd, 2022.</p>
+                    </div>
+        
+                    <div class="icon-box">
+                        <div class="icon"><i class="bx bx-gift"></i></div>
+                        <h4 class="title"><a href="">Interact</a></h4>
+                        <p class="description">Meet & Greet with the Author, Fr Moses Jimbili.</p>
+                    </div>
+        
+                    <div class="icon-box">
+                        <div class="icon"><i class="bx bx-atom"></i></div>
+                        <h4 class="title"><a href="">Engage</a></h4>
+                        <p class="description">Grab a signed copy of the book on the Launch date.</p>
+                    </div>
+    
+                </div>
+
+                <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative"></div>
+
+            </div>
+  
+        </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+        <div class="container-fluid">
+  
+          <div class="section-title">
+            <h2>Activities</h2>
+            <h3>This Week at <span>St Kevin's</span></h3>
+            <p>Stay informed and participate in our activities this week at St Kevin's.</p>
+          </div>
+  
+          <div class="row justify-content-center">
+            <div class="col-xl-10">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 icon-box">
+                  <div class="icon"><i class="ri-pie-chart-line"></i></div>
+                  <h4 class="title"><a href="">Stations of the cross</a></h4>
+                  <p class="description">Stations of the cross begins on Friday at 5:00pm. St Pius Society will lead.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 icon-box">
+                  <div class="icon"><i class="ri-stack-line"></i></div>
+                  <h4 class="title"><a href="">Marriage Classes</a></h4>
+                  <p class="description">Marriage classes continue at St. Thaddaeus Hall by 5pm on Friday.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 icon-box">
+                  <div class="icon"><i class="ri-markup-line"></i></div>
+                  <h4 class="title"><a href="">St Vincent de Paul Society</a></h4>
+                  <p class="description">St Vincent de Paul Society's Outreach earlier scheduled for friday has been postponed</p>
+                </div>
+                <div class="col-lg-4 col-md-6 icon-box">
+                  <div class="icon"><i class="ri-shape-line"></i></div>
+                  <h4 class="title"><a href="">Confessions</a></h4>
+                  <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </div>
+                <div class="col-lg-4 col-md-6 icon-box">
+                  <div class="icon"><i class="ri-fingerprint-line"></i></div>
+                  <h4 class="title"><a href="">Polio Vaccination</a></h4>
+                  <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                </div>
+                <div class="col-lg-4 col-md-6 icon-box">
+                  <div class="icon"><i class="ri-body-scan-line"></i></div>
+                  <h4 class="title"><a href="">Parish Membership Registration</a></h4>
+                  <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </section><!-- End Services Section -->
+
+
+
+    
+{% endblock content %}

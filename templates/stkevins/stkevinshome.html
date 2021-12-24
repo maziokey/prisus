@@ -1,0 +1,264 @@
+{% extends 'p_base.html' %}
+
+{% load static %}
+
+{% block title %}St Kevin's, Jikwoyi - Prisus{% endblock title %}
+
+{% block content %}
+    <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="10000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url({% static 'assets/img/slide/B1A.png' %})">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animated fadeInDown">St Kevin's, Jikwoyi</h2>
+              <h3 style="color:white;" class="animated fadeInUp">Next Mass:&nbsp;<span id="mass_time">&nbsp;</span></h3>
+              <h3 style="color:white;" class="animated fadeInUp">Countdown to Next Mass:&nbsp;<span id="time">&nbsp;</span></h3>
+              <p class="animated fadeInUp"></p>
+              <a href="#cta" class="btn-get-started animated fadeInUp scrollto">About</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url({% static 'assets/img/slide/B2.png' %})">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animated fadeInDown">10 Years in His Vineyard</h2>
+              <p class="animated fadeInUp">A Compilation of Sermons and Reflections by Fr. Jimbili Moses.</p>
+              <a href="#about" class="btn-get-started animated fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about team" class="about team">
+      <div class="container-fluid">
+
+        <div class="row justify-content-center">
+            
+            <div class="col-xl-5 col-lg-4 col-md-6" data-wow-delay="0.1s">
+
+              <div class="row justify-content-center">
+
+                <div class="col-xl-6 col-lg-4 col-md-6">
+
+                  <div class="member-k">
+  
+                    <img src="{% static 'assets/img/moz300-300.jpeg' %}" alt="">
+  
+                    <div class="member-k-info">
+  
+                      <div class="member-k-info-content">
+                        <h4>Fr. Moses Jimbili</h4>
+                        <span>Parish Priest</span>
+                      </div>
+  
+                      <div class="social">
+                          <a href=""><i class="bi bi-facebook"></i></a>
+                      </div>
+    
+                    </div>
+                  
+                  </div>
+  
+                </div>
+
+                <div class="col-xl-6 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+                  <h3>Summary of Pope Francis' 2021 Message for Mission Sunday</h3>
+                  <h5>We Cannot but speak what we have seen and heard (Acts 4:20).</h5>
+                </div>
+
+                <div class="col-xl-12 col-lg-6">
+
+                  <p class="description">
+                    The Holy Father reiterates God's love for humanity and his desire to save both the good and the bad. Christians are agents of God's saving work that must ensure as many people as possible are saved.
+                  </p>
+
+                  <p class="description">
+                    This mission is never going to be easy. The earliest disciples and apostles were able to propagate this message in the face of both internal and external struggles. The church continues to face challenges of every kind; physical (persecutions, psychological (unbelief), and spiritual (temptations).
+                  </p>
+
+                  <p class="description">
+                    The key to our victory is unconditional love for God, his message and his people. If the master himself has said it is through love we can make him known (Jn 13:35) and shed light on the blindness that prevents the world from seeing his marvelous works, who are we to do otherwise? 
+                  </p>
+
+                  <p class="description">
+                    Written words are not enough, spoken words are more concrete. We ought to keep speaking the message of the Gospel through our words and actions.
+                  </p>
+
+                  <p class="description">
+                    May God help us.
+                  </p>
+
+                  <h3 style="text-align:left;">Rev Fr Moses Jimbili</h3>
+                  <h5 style="text-align:left;">Parish Priest</h5>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-xl-5 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-top py-5 px-lg-5">
+              <h3 style="text-align:center;">Activities</h3>
+              <p style="text-align:center;">Parish Christmas Activities</p>
+  
+              <div class="icon-box">
+                  <div class="icon"><i class="bx bxs-moon"></i></div>
+                  <h4 class="title">Christmas Vigil Mass</h4>
+                  <p class="description">Friday, 24th Dec. 2021</p>
+                  <p class="description">8:00PM</p>
+              </div>
+  
+              <div class="icon-box">
+                  <div class="icon"><i class="bx bxs-tree"></i></div>
+                  <h4 class="title">Christmas Day Masses</h4>
+                  <p class="description">Saturday, 25th Dec. 2021</p>
+                  <p class="description">7:00AM and 9:00AM</p>
+              </div>
+  
+              <div class="icon-box">
+                  <div class="icon"><i class="bx bx-gift"></i></div>
+                  <h4 class="title">Sunday/Boxing Day Masses</h4>
+                  <p class="description">Sunday, 26th Dec. 2021</p>
+                  <p class="description">7:00AM and 9:00AM</p>
+              </div>
+
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-sun"></i></div>
+                <h4 class="title"><a href="">Morning Mass</a></h4>
+                <p class="description">Monday, 27th Dec. 2021</p>
+                <p class="description">7:00AM</p>
+              </div>
+
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-church"></i></div>
+                <h4 class="title"><a href="">Morning & Evening Masses</a></h4>
+                <p class="description">Tuesday, 27th - Thursday, 30th Dec. 2021</p>
+                <p class="description">6:00AM and 6:00PM</p>
+              </div>
+
+              <div class="icon-box">
+                <div class="icon"><i class="bx bxs-moon"></i></div>
+                <h4 class="title"><a href="">New Year Vigil Mass</a></h4>
+                <p class="description">Friday, 31st Dec. 2021</p>
+                <p class="description">10:00PM</p>
+              </div>
+
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-bible"></i></div>
+                <h4 class="title"><a href="">New Year & Sunday Masses</a></h4>
+                <p class="description">Saturday, 1st & Sunday, 2nd Jan. 2022</p>
+                <p class="description">7:00AM and 9:00AM</p>
+              </div>
+
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-sun"></i></div>
+                <h4 class="title"><a href="">Morning Mass</a></h4>
+                <p class="description">Monday, 3rd Jan, 2022</p>
+                <p class="description">7:00AM</p>
+              </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+        <div class="container">
+  
+          <div class="text-center">
+            <h3>A Brief History of St Kevins, Jikwoyi.</h3>
+
+            <p>
+              Preparatory to establishing a worshipping community in Jikwoyi, Rev. Fr. Richard Devine, 
+              SMA said the first Holy Mass in Jikwoyi on the 22nd of September 1992. That began a tradition of monthly masses in Jikwoyi. 
+              Following that was the erection of a temporary church building initiated by Fr. Devine in November 1993. And then in 1994, 
+              Fr. Devine named the church St. Kevin’s after his home parish in Ireland.
+            </p>
+
+            <p>
+              When Fr. Devine returned to Ireland, Rev. Fr. Jerry Amman, SJ oversaw St. Kevin’s Church, along with 13 other churches under 
+              St. Patrick’s Parish, Karshi at the time. After Fr. Jerry came Rev. Fr. Anthony Onyeso. After Fr. Onyeso, the Archdiocese 
+              handed St. Patrick’s parish over to the Missionary Society of Saint Paul (MSP). Rev. Fr. Okpon, MSP became the Parish Priest, 
+              succeeded by Rev. Fr. Anthony Afiangide, MSP, then Rev. Fr. Dominic Oguama, MSP who created St. Kevin’s Parish out of 
+              St. Patrick’s in July 2011. Messrs. Joseph Odey and Soribe Ambrose, Station Council leaders, were instrumental in St. Kevin’s 
+              elevation to a parish by His Grace, Most Rev. Dr. John Olorunfemi Onaiyekan, Archbishop of the Metropolitan See of Abuja.
+            </p>
+
+            <p>
+              The first Parish Priest of St. Kevin’s Parish was Rev. Fr. Ali Edogbanya; he led a pastoral team comprising 
+              Rev. Frs. Daniel Ihunanya, MSP, Christopher Inegbenoghu, and Stephen Akpan that administered the parish for five years, 
+              then handing over to Rev. Fr. Daniel Msugh Agber in 2006. Fr. Agber’s team had Rev. Frs. Alexander Ogbenufe, Christopher 
+              Nnubia, and Mathew Kwaggas. Rev. Fr. Aloysius Isua succeeded Fr. Agber as parish priest, himself handing over to 
+              Rev. Fr. Moses Jimbili – the current parish priest – in 2018. Mr. Augustine Ager is the parish Catechist; 
+              he succeeded Mr. John Obodoagu – the pioneer catechist of the parish.
+            </p>
+
+          </div>
+  
+        </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+        <div class="container-fluid">
+  
+            <div class="row justify-content-center">
+  
+                <div class="col-xl-5 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+                    <h3>10 Years in His Vineyard</h3>
+                    <p>A Compilation of Sermons and Reflections by Fr Jimbili Moses.</p>
+        
+                    <div class="icon-box">
+                        <div class="icon"><i class="bx bx-rocket"></i></div>
+                        <h4 class="title"><a href="">Launching</a></h4>
+                        <p class="description">February 23rd, 2022.</p>
+                    </div>
+        
+                    <div class="icon-box">
+                        <div class="icon"><i class="bx bx-book-content"></i></div>
+                        <h4 class="title"><a href="">Where to Purchase</a></h4>
+                        <p class="description">Available at the Parish.</p>
+                    </div>
+    
+                </div>
+
+                <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative"></div>
+                
+
+            </div>
+  
+        </div>
+    </section><!-- End About Section -->
+
+    
+
+
+
+    
+{% endblock content %}
