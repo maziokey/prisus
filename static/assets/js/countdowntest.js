@@ -1,8 +1,28 @@
+const d = new Date();
+
+const weekday = new Array(7);
+weekday[0] = "Sunday";
+weekday[1] = "Monday";
+weekday[2] = "Tuesday";
+weekday[3] = "Wednesday";
+weekday[4] = "Thursday";
+weekday[5] = "Friday";
+weekday[6] = "Saturday";
 
 
-const times = [
-  [7, 0, "red"], [9, 0, "yellow"]
-]
+let day = weekday[d.getDay()];
+
+console.log(day)
+
+if (day == weekday[2] || day == weekday[3] || day == weekday[4]) {
+  var timez = [[6, 0, "green"], [18, 0, "purple"]];
+} else if (day == weekday[5]) {
+  var timez = [[22, 0, "blue"]];
+} else if (day == weekday[6] || weekday[0]) {
+  var timez = [[7, 0, "red"], [9, 0, "yellow"]];
+} else var timez = [[7, 0, "red"]];
+
+const times = timez
 
 console.log(times)
 
