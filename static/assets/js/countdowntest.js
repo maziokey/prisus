@@ -14,13 +14,11 @@ let day = weekday[d.getDay()];
 
 console.log(day)
 
-if (day == weekday[2] || day == weekday[3] || day == weekday[4]) {
-  var timez = [[6, 0, "green"], [18, 0, "purple"]];
-} else if (day == weekday[5]) {
-  var timez = [[22, 0, "blue"]];
-} else if (day == weekday[6] || weekday[0]) {
-  var timez = [[7, 0, "red"], [9, 0, "yellow"]];
-} else var timez = [[7, 0, "red"]];
+if (day == weekday[0]) {
+  var timez = [[6, 0, "green"], [8, 0, "red"], [10, 0, "purple"], [18, 0, "blue"]];
+} else {
+  var timez = [[6, 0, "green"], [12, 0, "red"], [18, 0, "blue"]];
+}
 
 const times = timez
 
